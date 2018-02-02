@@ -6,11 +6,11 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        foePools: {
+        foePools: { // 敌人
             default: [],
-            type: NodePool
+            type: NodePool // 有点继承的感念
         },
-        projectilePools: {
+        projectilePools: { // 射击物
             default: [],
             type: NodePool
         }
